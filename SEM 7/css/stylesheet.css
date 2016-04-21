@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Lato|Oxygen);
+body{
+	background-image: url(../images/wood.jpg);
+}
+.wrapper {
+	max-width: 1024px;
+	width: 100%;
+	margin: auto;
+}
+header h1 {
+	font-family: "Open Sans";
+	font-size: 3em;
+	color: #515151;
+	font-weight: bold;
+	text-align: left;
+	background-color: #d86464;
+	width: 2.9%;
+	letter-spacing: 1.25%;
+	margin-left: 13%;
+	margin-top: 3%;
+}
+nav{
+		display: block;
+		font-family: "Open Sans";
+	   	font-size: 1.125em;
+	   	background-color: #d86464;
+	   	width: 40%;
+    	letter-spacing: 3px;	
+    	line-height: 160%;
+    	text-align: center;
+    	float: right;
+    	word-spacing: 10px;
+    	text-decoration: none;
+    	margin-top: 5%;
+    	margin-bottom: 5%;
+    	margin-right: 8%;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	color:white;
+	word-spacing: 50px;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+		color: #515151;
+}
+aside{
+	float: left;
+	margin-top: 5%;
+	text-align: center;
+	border: 3px solid #d86464;
+	font-family: "Lato";
+	line-height: 200%;
+	color: #515151;
+	letter-spacing: 3px;
+	width: 20%;
+}
+
+a:hover{
+	color: #d86464;
+	font-weight: bold;
+}
+
+a{ 	
+	text-decoration: none;
+	color: #515151;
+}
+section {
+	float: right;
+	width: 50%;
+	margin-right: 5%;
+	font-family: "Oxygen";
+	margin-top: 2%;
+	margin-bottom: 2%;
+
+}
+article {
+	margin: 5%;
+	text-align: justify;
+	color:#515151;
+
+
+}
+
+h2{
+	font-size: 1.3em;
+	color: #d86464;
+	margin: 3%;
+	text-align: center;
+	font-weight: bold;
+}
+footer {
+	clear: both;
+	background-color: #d86464;
+	color: white;
+	font-family: "Lato";
+	width: 100%;
+	letter-spacing: 3px;
+}
+/*-----------------------------------------------------*/
+
+@media screen and (max-width: 600px) {
+ 	
+ 	.wrapper{width: 100%;}
+ 	aside {width: 90%;}
+	section{width: 90%;}
+	nav{width:90%; margin-top: 10%}
+	
+ }
+
+
+
+

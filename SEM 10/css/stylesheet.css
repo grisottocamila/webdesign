@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light|Lobster+Two|Permanent+Marker|Open+Sans|Lato|Righteous|Oxygen);
+body{
+
+	background-image: url(../images/muro.jpg);
+}
+.wrapper {
+	max-width: 1024px;
+	width: 100%;
+	margin: auto;
+}
+header h1 {
+	font-family: "Lobster";
+	font-size: 4.3em;
+	color: white;
+	text-align: center;
+	word-spacing: 4px;
+	width: 2.9%;
+	margin-left: 40%;
+	margin-top: 3%;
+	float:left;
+	margin:;
+}
+nav{
+		display: block;
+		font-family: "Open Sans";
+	   	font-size: 1.125em;
+	   	background-color: black;
+	   	width: 100%;	
+    	line-height: 160%;
+    	text-align: center;
+    	float: right;
+    	word-spacing: 10px;
+    	text-decoration: none;
+    	margin-top: 5%;
+    	margin-bottom: 5%;
+    	letter-spacing: 2px;
+
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+		color: #00BCB2;
+}
+aside{
+	float: left;
+	margin-top: 3%;
+	text-align: center;
+	border: 5px solid #00BCB2;
+	font-family: "Lato";
+	line-height: 200%;
+	letter-spacing: 3px;
+	width: 100%;
+	font-size: 2em;
+	font-weight: bold;
+	color: black;
+
+}
+aside a {
+	color:black;
+	font-family: "Lato";
+}
+h3{
+	font-size: 1.3em;
+	color: white;
+	font-family: "Righteous";
+	letter-spacing: 3px;
+}
+
+
+a:hover{
+	color: #d86464;
+	font-weight: bold;
+}
+
+a{ 	
+	text-decoration: none;
+	color: white;
+}
+section {
+	float: right;
+	width: 80%;
+	margin-right: 5%;
+	font-family: "Oxygen";
+	margin-top: 2%;
+	margin-bottom: 2%;
+	clear: both;
+
+}
+article {
+	margin: 10%;
+	text-align: justify;
+	color: black;
+	font-family: "Open Sans";
+	font-size: 1.8em;
+}
+span ul {
+    list-style-type: circle;
+    font-size: 0.8em;
+}
+
+h2{
+	font-size: 1.4em;
+	color: white;
+	margin: 3%;
+	text-align: left;
+	font-family: "Righteous";
+	font-weight: bold;
+	letter-spacing: 3px;
+
+}
+span h2 {
+	font-size: 0.8em;
+	color: white;
+	margin: 3%;
+	text-align: left;
+	font-family: "Righteous";
+	font-weight: bold;
+	letter-spacing: 3px;
+
+}
+.img {
+	margin: 5px;
+    border: 1px solid #blue;
+    float: left;
+    width: 180px;
+    text-align: center;
+}
+
+footer {
+	clear: both;
+	background-color: black;
+	color: white;
+	font-family: "Lato";
+	width: 100%;
+	letter-spacing: 3px;
+}
+/*-----------------------------------------------------*/
+
+@media screen and (max-width: 600px) {
+ 	
+ 	.wrapper{width: 100%;}
+ 	aside {width: 90%;}
+	section{width: 90%;}
+	nav{width:90%; margin-top: 10%}
+	
+ }
+
+
+
+
