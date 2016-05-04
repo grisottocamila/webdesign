@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Lato:900|Passion+One);
+
+
+body {
+
+
+}
+#wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+.container {
+	width: 700px;
+	margin: 0 auto;
+	float: center;
+}
+
+aside ul li{
+	display: inline-block;
+}
+
+aside ul li a{
+	text-decoration: none;
+	color:#06B3BC;
+}
+
+aside ul li a:hover{
+	color: white;
+}
+
+
+aside{
+	float: left;
+	margin-top: 5%;
+	text-align: center;
+	font-family: "Open Sans";
+	line-height: 200%;
+	color: red;
+	letter-spacing: 7px;
+	width: 20%;
+	font-size: 1.125em;
+}
+
+aside ul li a{
+	text-decoration: none;
+	color:#06B3BC;
+	font-weight: bold;
+}
+.container div {
+	float: right;
+	padding: 8px;
+	margin-top: 7%;
+	margin-left: 50px;
+	color: white;
+}
+
+.audio div{
+	float: left;
+}
+
+.img:hover{
+	opacity: 0.5;
+
+}
+
+h1{
+	font-size: 4em;
+	font-family: "Passion One";
+	text-align: center;
+	letter-spacing: 15px;
+	color: white;
+	margin: 35px;
+}
+
+
+p {
+	color: white;
+	text-align: center;
+	font-size: 1.200em;
+	font-family: "Lato";
+	letter-spacing: 7px;
+	font-weight: bold;
+}
+
+span{
+	float:right;
+}
+
+footer {
+	width: 100%;
+	font-family: "Open Sans";
+	clear: both;
+	font-size: 0.5em;
+	float: left;
+	margin: 50px;
+	font-weight: lighter;
+}
+
